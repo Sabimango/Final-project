@@ -223,6 +223,54 @@ select:focus{
     color: #ffffff;
 }
 
+/*--Single product details--*/
+
+.single-product{
+    margin-top: 80px;
+
+}
+
+.single-product h3{
+    margin: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.single-product input{
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-right: 10px;
+    border: 1px solid #000000;
+}
+.single-product select{
+    border: 1px solid #000000; 
+    display: block;
+    width: 120px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+.product-det {
+    width: 650px;
+}
+
+.single-product .col-2 img {
+    padding: 0;
+}
+
+.single-product .col-2 {
+    padding: 20px;
+}
 /*--media query---*/
 
 @media only screen and (max-width:768px) {
